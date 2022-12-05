@@ -1,0 +1,248 @@
+ormat: Log Type - Time(microsec) - Message - Optional Info
+Log Type: B - Since Boot(Power On Reset),  D - Delta,  S - Statistic
+S - QC_IMAGE_VERSION_STRING=BOOT.XF.2.2-00080-SDM845WZB-1
+S - IMAGE_VARIANT_STRING=SDM845WP
+S - OEM_IMAGE_VERSION_STRING=AlexYL_Wang
+S - Boot Interface: UFS
+S - Secure Boot: On
+S - Boot Config @ 0x00786070 = 0x000000c1
+S - JTAG ID @ 0x00786130 = 0x200b70e1
+S - OEM ID @ 0x00786138 = 0x00050000
+S - Serial Number @ 0x00784138 = 0x6ece8c81
+S - Feature Config Row 0 @ 0x007841a0 = 0x0050200080000400
+S - Feature Config Row 1 @ 0x007841a8 = 0xe000000000000020
+S - Core 0 Frequency, 1516 MHz
+S - PBL Patch Ver: 1
+S - PBL freq: 19 MHZ
+B -        94 - PBL, Start
+B -      5276 - bootable_media_detect_entry
+B -     44017 - bootable_media_detect_success
+B -     44392 - elf_loader_entry
+B -     44967 - auth_hash_seg_entry
+B -     52501 - auth_hash_seg_exit
+B -     58537 - elf_segs_hash_verify_entry
+B -     65361 - elf_segs_hash_verify_exit
+B -     65989 - auth_xbl_sec_hash_seg_entry
+B -     73194 - auth_xbl_sec_hash_seg_exit
+B -     73195 - xbl_sec_segs_hash_verify_entry
+B -     73954 - xbl_sec_segs_hash_verify_exit
+B -     73979 - PBL, End
+B -     89182 - SBL1, Start
+B -    201513 - boot_flash_init, Start
+D -        30 - boot_flash_init, Delta
+B -    205478 - xblconfig_init, Start
+D -      3782 - Auth Metadata
+D -    137738 - xblconfig_init, Delta
+B -    348249 - sbl1_ddr_set_default_params, Start
+D -      1494 - sbl1_ddr_set_default_params, Delta
+B -    356209 - boot_config_data_table_init, Start
+D -       396 - boot_config_data_table_init, Delta - (877 Bytes)
+B -    370910 - CDT Version:3,Platform ID:29,Major ID:1,Minor ID:0,Subtype:0
+B -    376705 - pm_device_init, Start
+B -    381860 - PM: PON REASON: PM0=0x8000028000000001:0x0 PM2=0x8000088000000020:0x0
+B -    423858 - PM: SET_VAL:Skip
+D -     47641 - pm_device_init, Delta
+B -    426847 - pm_driver_init, Start
+D -      4239 - pm_driver_init, Delta
+B -    435113 - PM: ChargerExtHwLibRohm_Init: CMD_SEL_MAP set Failed..
+B -    443561 - PM: pm_ext_chgr_weakBatt_init: Failed to initialize Charger/FG..
+B -    449875 - vsense_init, Start
+D -         0 - vsense_init, Delta
+B -    481717 - sbl1_ddr_set_params, Start
+B -    483547 - Pre_DDR_clock_init, Start
+D -        61 - Pre_DDR_clock_init, Delta
+D -      7686 - sbl1_ddr_set_params, Delta
+B -    493124 - sbl1_ddr_init, Start
+D -     16134 - sbl1_ddr_init, Delta
+B -    513132 - DSF version = 253.41, DSF SHRM version = 173.1
+B -    516456 - Manufacturer ID = 1, Device Type = 7
+B -    522068 - Rank 0 size = 4096 MB, Rank 1 size = 4096 MB
+B -    527101 - do_ddr_training, Start
+B -    533689 - Frequency = 1355 MHz
+D -      3507 - do_ddr_training, Delta
+B -    542351 - pImem Init Start
+D -      9729 - pImem Init End, Delta
+B -    553941 - clock_init, Start
+D -       213 - clock_init, Delta
+B -    559034 - Image Load, Start
+D -      2837 - APDP Image Loaded, Delta - (0 Bytes)
+B -    565043 - usb: UFS Serial - 4c3a636f
+B -    569679 - usb: fedl, vbus_det_err
+B -    574071 - PM: 0: PON=0x1:HARD_RESET: ON=0x80:PON_SEQ: POFF=0x2:PS_HOLD: OFF=0x80:POFF_SEQ
+B -    582794 - PM: 2: PON=0x20:PON1: ON=0x80:PON_SEQ: POFF=0x8:GP1: OFF=0x80:POFF_SEQ
+B -    591242 - PM: SMEM Chgr Info Write Success
+B -    598318 - Image Load, Start
+D -      3507 - Auth Metadata
+D -     10279 - Segments hash check
+D -     21259 - AOP Image Loaded, Delta - (178996 Bytes)
+B -    622840 - Image Load, Start
+D -      3447 - Auth Metadata
+D -       305 - Segments hash check
+D -     12505 - QSEE Dev Config Image Loaded, Delta - (34632 Bytes)
+B -    644190 - Image Load, Start
+D -      9913 - Auth Metadata
+D -     16348 - Segments hash check
+D -     45781 - QSEE Image Loaded, Delta - (2038392 Bytes)
+B -    693234 - Image Load, Start
+D -       152 - SEC Image Loaded, Delta - (4096 Bytes)
+B -    701561 - Image Load, Start
+D -      3538 - Auth Metadata
+D -      2440 - Segments hash check
+D -     19642 - QHEE Image Loaded, Delta - (384704 Bytes)
+B -    724466 - Image Load, Start
+D -      5185 - STI Image Loaded, Delta - (0 Bytes)
+B -    732701 - Image Load, Start
+D -      4666 - ABL Image Loaded, Delta - (0 Bytes)
+B -    740509 - Image Load, Start
+D -      3569 - Auth Metadata
+D -      9119 - Segments hash check
+D -     32696 - APPSBL Image Loaded, Delta - (2097152 Bytes)
+B -    813404 - SBL1, End
+D -    724253 - SBL1, Delta
+S - Flash Throughput, 114000 KB/s  (4811057 Bytes,  41898 us)
+S - DDR Frequency, 1353 MHz
+
+
+UEFI Start     [ 1142] SEC
+ASLR        : Off
+DEP         : On[RTB]
+Timer Delta : +1 mS
+RAM Entry 0 : Base 0x0000000080000000  Size 0x0000000100000000
+RAM Entry 1 : Base 0x0000000180000000  Size 0x00000000FC7A0000
+UEFI Ver    : 0.1.190604.BOOT.XF.2.2-00080-SDM845WZB-1
+Build Info  : 64b Jun  4 2019 14:52:20
+Boot Device : UFS
+PROD Mode   : TRUE
+Retail      : TRUE
+LoadSecureImageFromFileSystemHelper Failed: 14
+LoadSecureApps: dxhdcp2 Failed to load, Status 800000000000000E
+ScmSipSysCall() failed, Status = (0x7)
+PM0: 20,
+ChargerExtHwLib_SetSinkEn Hardware Info is not available
+MDPLibProfile: Entry[MDPSetProperty()][6]
+DisplayDxe: Success to locate protocol gEfiTLMMProtocolGuid
+DisplayDxe: Panel ID0: 0
+DisplayDxe: Panel ID1: 1
+DisplayDxe: PanelVendor: 1
+DisplayDxe: CLS Panel: MDPPLATFORM_PANEL_CLS_SN65DSIx6_BOE_FHD_VIDEO==========-----------------
+MDPLibProfile: Exit[MDPSetProperty()][2758us function time][2758us total time]
+MDPLibProfile: Entry[MDPInit][0]
+MDPLibProfile: Entry[MDPSetCoreClock()][0]
+MDPLibProfile: Exit[MDPSetCoreClock()][1119us function time][3877us total time]
+MDPLibProfile: Exit[MDPInit()][2932us function time][6809us total time]
+MDPLibProfile: Entry[MDPPower()][0]
+MDPLibProfile: Exit[MDPPower()][11919us function time][18728us total time]
+MDPLibProfile: Entry[MDPDetect()][0]
+MDPLibProfile: Entry[MDPDetectPanel()][0]
+MDPLibProfile: Exit[MDPDetectPanel()][7990us function time][26718us total time]
+MDPLibProfile: Exit[MDPDetect()][8751us function time][35469us total time]
+MDPLibProfile: Entry[MDPSetProperty()][4]
+MDPLibProfile: Exit[MDPSetProperty()][11us function time][35480us total time]
+MDPLibProfile: Entry[MDPSetMode()][0]
+MDPLibProfile: Exit[MDPSetMode()][219483us function time][254963us total time]
+MDPLibProfile: Entry[MDPSetProperty()][0]
+MDPLibProfile: Exit[MDPSetProperty()][307us function time][255270us total time]
+MDPLibProfile: Entry[MDPSetProperty()][2]
+MDPLibProfile: Exit[MDPSetProperty()][2092us function time][257362us total time]
+UsbConfigLibOpenProtocols: PMI8998 not detected
+qusb2_1: hstx: 4
+PLL1 locked: 5
+usb_lane: 0
+DisableClock: clock remains enabled for gcc_usb_phy_cfg_ahb2phy_clk
+DisableUsbClocks: failed to disable clock 'gcc_usb_phy_cfg_ahb2phy_clk'
+qusb2_2: hstx: 2
+PLL2 locked: 5
+UsbEnumeratePort: new device connected at port 0, HubIfc =0xE03B1B18
+Eason - SetVariable  - Status = Success
+XHCI: Don't support multi-TT feature for Hub now. (force to disable MTT)
+XHCI: Don't support multi-TT feature for Hub now. (force to disable MTT)
+UsbEnumeratePort: new device connected at port 1, HubIfc =0xE03B1B18
+UsbEnumeratePort: new device connected at port 2, HubIfc =0xDE054818
+UsbSelectConfig: failed to connect driver Not Found, ignored
+UsbSelectConfig: failed to connect driver Not Found, ignored
+EEPROM2Data.AlwaysOnUsb =1
+Set EC AOU namespace pass.
+SET_BATTERY_CHARGE_MODE: 0
+Set EC AOU Charge in battery mode namespace pass.
+[Compal][COM] CompalEcAutoFlashEntryPoint() - Entry
+[Compal][COM] CompalEcAutoFlash:EC Status 0
+On Board EC version0 2
+On Board EC version1 6
+On Board EC version2 0
+On Board EC version3 0
+BiosRomEc EC version0 2
+BiosRomEc EC version1 6
+BiosRomEc EC version2 0
+BiosRomEc EC version3 0
+[Compal][COM] CompalEcAutoFlashEntryPoint() - Exit
+ReadData= 33
+EcDataBuf[0]=02,EcDataBuf[1]=06,EcDataBuf[2]=00
+MinorVersion0=30, MinorVersion1=36, TestVersion0=0, TestVersion1=0
+BDS.SignalConnectDriversEvent(E16D65C8)
+BDS.ConnectRootBridgeHandles(E16D66AC)
+BDS.RegisterMemoryTypeInformationUpdateCallback(E16D72FC)
+BDS.ConnentAllConsoles(E16D6BE8)
+BDS.ReportConnectConOutProgressCode(E16D68A8)
+BDS.ConnectVgaConOut(E16D68C0)
+BDS.ConnectConOutVariable(E16D6BDC)
+BDS.InstallConOutStartedProtocol(E16D6BEC)
+BDS.ReportConnectConInProgressCode(E16D6C00)
+BDS.ConnectI2cHid(E16EF120)
+[I2C COMBINEREAD] Bus:0x4, Slave address:0x2C I2C Read and Write Failed
+[I2C COMBINEREAD] Generic Read Failed 22
+PreviousProductIDStatus : 3
+PID default case
+PreviousProductIDStatus : 3
+PID 0x2802
+BDS.ConnectConInVariable(E16D6C18)
+BDS.InstallConInStartedProtocol(E16D6C24)
+BDS.ConnectEverything(E16D5A10)
+BDS.RunDrivers(E16D6128)
+BDS.InitConVars(E16D6C38)
+BDS.RunSysPrepApps(E16D6354)
+BDS.SignalAllDriversConnectedEvent(E16D743C)
+BDS.UpdateBootOptionVariables(E16DAF5C)
+BDS.ReadBootOptions(E16D8978)
+BDS.UnmaskOrphanDevices(E16D8BD8)
+BDS.CollectBootDevices(E16D8D58)
+BDS.FilterBootDeviceList(E16D8DF8)
+BDS.MatchBootOptionsToDevices(E16D957C)
+BDS.DeleteUnmatchedUefiHddBootDevices(E16D9734)
+-----------------------------
+Platform Init  [ 4588] BDS
+Platform   : CLS
+Chip Name  : SDM850
+Chip Ver   : 2.1
+Core 0 Freq: 1612 MHz
+-----------------------------
+QcomChargerApp:: QcomChargerApp_Entry Can not locate Charger Protocol = Not Found
+Start image failed
+Failed to launch default charger app, status: Device Error
+LEMSetupData.SecureBootSupport = 0
+No pending capsules found in EFI Raw file
+ACPI: Loaded 1 tables
+: DppProtocol->GetDPP returned Not Found
+Platform Init End : 4848
+-----------------------------
+BDS.CreateBootOptionsForNewBootDevices(E16DA8A8)
+1(100/FFFFFFFF).Windows Boot Manager
+BDS.SetBootOptionTagsSpecial(E16EF6D8)
+BDS.NormalizeBootOptions(E16DAA28)
+BDS.PreProcessBootOptions(E16D800C)
+BDS.SetBootOptionPriorities(E16D7E44)
+1(100/2010A).Windows Boot Manager
+BDS.ControlUsbBootOption(E16EF9CC)
+BDS.SaveBootOptions(E16DABE8)
+1(100/2010A).Windows Boot Manager
+BDS.CallTheDispatcher(E16D73E4)
+BDS.PerformCapsuleVariableCleanup(E16D78D0)
+BDS.UpdateEsrtFmpEntries(E16D79A0)
+BDS.RecoverTheMemoryAbove4Gb(E16D77BC)
+BDS.RegisterUfsWriteProtectEvent(E16EFDC4)
+BDS.HandoffToTse(E16D7448)
+ERROR: C80000002:V03051002 I0
+ Hash() failed, Status =  (0x8000000000000002)
+error: serial port `com0' isn't found.
+error: terminal `serial' isn't found.
+error: terminal `serial' isn't found.
+GNU GRUB  version 2:2.06.r380.g151467888-1
